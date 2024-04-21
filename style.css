@@ -1,0 +1,109 @@
+
+/*Autor: william alves dos santos,Vinicius ferreira viana */
+/*Data 21/04/2024 */
+/*Trabalho Final da Unidade - Avaliação Prática de LP */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    
+}
+
+.logo>img{
+    display: flex;
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.nav-items{
+    list-style: none;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    color: white;
+    
+}
+.nav-items>li{
+    padding-left: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20%;
+    
+    
+}
+
+.card{
+   
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: black;
+    
+    
+   
+}
+
+.email{
+    border: 1px solid rgb(233, 227, 227);
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 3px;
+    outline: none;
+    padding: 12px;
+}
+
+.senha{
+    border: 1px solid rgb(233, 227, 227);
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 4px;
+    outline: none;
+    padding: 12px;
+    
+
+}
+
+.botao{
+   border: none;
+    width: 300px;
+    height: 40px;
+    margin: 2px;
+    background-color: rgb(252, 55, 55);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    background: rgb(211, 83, 83);
+    cursor: pointer;
+}
+
