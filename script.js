@@ -5,7 +5,7 @@
 
 
 var Nome = prompt('Digite seu nome completo')
-var jogo = prompt('Agora me fala quem descobrio o Brasil?')
+var jogo = prompt('Qual a função da Netflix?')
 
 
 alert('Bem vindo a Netflix:'+ Nome +  'Resultado: ' + jogo )
